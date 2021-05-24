@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1621883051 source:c:\users\buriev\desktop\ludecomposition\main.cpp
+	<iostream>
+	<unordered_map>
+	<list>
+	<vector>
+	<deque>
+	<unordered_set>
+	<string>
+	<algorithm>
+	<math.h>
+	<fstream>
+	<chrono>
+
