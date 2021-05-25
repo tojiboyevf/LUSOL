@@ -35,5 +35,5 @@ Method ``void rowSwap(int i, int j)`` swaps i th row and j th row<br>
 ``vector<double> ans`` is solution of the system of linear equation <br>
 ``deque<pair<int, int>> P`` contains permutation matrices  <br>
 Method ``void Factorize()`` factorizes given matrix ``A`` into matrices ``L`` and ``U`` <br>
-Method ``void pivot(int i)`` during factorization chooses such element ``A[ij]`` with minimum ``(A.row[i].size() - 1)*(A.column[j].size() - 1)`` for preserving sparsity of matrix<br>
+Method ``void pivot(int i)`` during factorization chooses such nonzero element ``A[ij]`` with minimum ``(A.row[i].size() - 1)*(A.column[j].size() - 1)`` for preserving sparsity of the matrix<br>
 Method ``void solve()`` solves the system of linear equations<br>
