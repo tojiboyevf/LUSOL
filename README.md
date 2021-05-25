@@ -16,7 +16,7 @@ This project factorizes the given matrix into Lower(L) and Upper(U) triangular m
      inz     jnz     valnz
     
 ```
-File ``5000x5000.txt`` also contains a matrix in the coordinate text format.
+File ``5000x5000.mtx`` also contains a matrix in the coordinate text format.
 ## main.cpp
 There are two main classes: ``Matrix`` and ``LUSOL`` in ``main.cpp``. <br>
 ### Matrix
