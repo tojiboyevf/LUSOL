@@ -401,7 +401,7 @@ int main()
 	/*string filenameaddress;
 	cin>>filenameaddress;*/
 
-	ifstream in("5000x5000.txt");
+	ifstream in("5000x5000.mtx");
 	if(!in.is_open()) {cout<<"The file doesn't exist"; return 0;}
 
 	in >> n >> m;
