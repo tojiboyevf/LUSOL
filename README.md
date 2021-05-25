@@ -1,5 +1,5 @@
 # LUSOL
-This project factorizes given matrix into Lower(L) and Upper(U) triangular matrices. To check how it is working correctly it generates random dense vector and solves the system of linear equations
+This project factorizes the given matrix into lower(L) and upper(U) triangular matrices. To check how it is working correctly it generates a random dense vector and the solves system of linear equations
 # Structure
 
 ## tests
