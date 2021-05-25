@@ -101,10 +101,7 @@ void Matrix::colSwap(int i, int j){
 
 	s.clear();
 
-	list<int> c;
 	swap(column[i], column[j]);
-
-	c.clear();
 
 }
 
@@ -155,10 +152,7 @@ void Matrix::rowSwap(int i, int j){
 
 	s.clear();
 
-	list<int> c;
 	swap(row[i], row[j]);
-
-	c.clear();
 
 }
 
@@ -238,7 +232,7 @@ void LUSOL::pivot(int i){
 		for (auto x : U.column[i])
 		{
 			xi.first = x;
-			if (x >= i && U.M.find(xi) != U.M.end() && U.M[xi] != 0){
+			if (x > i && U.M.find(xi) != U.M.end() && U.M[xi] != 0){
 				m = x;
 				b = false;
 				M = (U.column[i].size() - 1)*(U.row[m].size() - 1);
@@ -271,7 +265,7 @@ void LUSOL::pivot(int i){
 	swap(b[i], b[m]);
 	L.colSwap(i, m);
 	L.rowSwap(i, m);
-    P.push_back({i,m});
+    	P.push_back({i,m});
 
 }
 
@@ -416,7 +410,7 @@ int main()
 		A.column[ij.second].push_back(ij.first);
 	}
 
-    vector<double> ans(n+1);
+    	vector<double> ans(n+1);
 	vector<double> b(n+1);
 
 
@@ -426,8 +420,8 @@ int main()
 	/*for(int i=1; i<=n; i++)
         cin>>ans[i];*/
 
-    for(int i=1; i<=n; i++)
-        ans[i]=rand()%100;
+    	for(int i=1; i<=n; i++)
+        	ans[i]=rand()%100;
 
 	for (int i = 1; i <= n; i++)
 	{
