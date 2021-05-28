@@ -1,5 +1,6 @@
 # LUSOL
-This project factorizes the given matrix into Lower(L) and Upper(U) triangular matrices. To check how it is working correctly it generates a random dense vector and solves the system of linear equations
+The main purpose of doing this project is to implement an effective algorithm for factorizing a sparse matrix into lower (L) and upper (U) matrices. The algorithm works on the basis of LU decomposition. I took into account the Markowitz criterion to maintain the sparsity of the matrix. Since the matrix is sparse, I used a different data structure, which in turn allows the program to run faster and use less memory. To test how the program works, it generates a random dense vector and solves a system of linear equations
+
 # Structure
 
 ## tests
