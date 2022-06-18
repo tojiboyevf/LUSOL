@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1623229778 source:c:\users\buriev\documents\lu\main.cpp
+	<iostream>
+	"Matrix.h"
+	"LUd.h"
+
+1623217715 c:\users\buriev\documents\lu\matrix.h
+	<iostream>
+	<map>
+	<vector>
+	<set>
+	<string>
+	<algorithm>
+	<fstream>
+
+1623218233 c:\users\buriev\documents\lu\lud.h
+	<map>
+	<vector>
+	<deque>
+	<set>
+	<string>
+	<algorithm>
+	<math.h>
+	<fstream>
+	<chrono>
+	"Matrix.h"
+
+1623220485 source:c:\users\buriev\documents\lu\lud.cpp
+	"LUd.h"
+
+1623219409 source:c:\users\buriev\documents\lu\matrix.cpp
+	"Matrix.h"
+
+1623229778 source:c:\users\buriev\documents\sort\main.cpp
+	<iostream>
+	"Matrix.h"
+	"LUd.h"
+
+1623217715 c:\users\buriev\documents\sort\matrix.h
+	<iostream>
+	<map>
+	<vector>
+	<set>
+	<string>
+	<algorithm>
+	<fstream>
+
+1623240752 c:\users\buriev\documents\sort\lud.h
+	<map>
+	<vector>
+	<deque>
+	<set>
+	<string>
+	<algorithm>
+	<math.h>
+	<fstream>
+	<chrono>
+	"Matrix.h"
+
+1623219409 source:c:\users\buriev\documents\sort\matrix.cpp
+	"Matrix.h"
+
